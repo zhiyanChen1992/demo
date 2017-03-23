@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_bus_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bus_1"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_rout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2222"
+        android:layout_toRightOf="@+id/iv_bus_icon"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_rout_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="开往：花城总站"
+        android:layout_below="@+id/tv_rout_name"
+        android:layout_toRightOf="@+id/iv_bus_icon"
+        android:paddingLeft="10dp"
+        />
+
+  <TextView
+      android:id="@+id/tv_stop_count"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="已经进站"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:paddingRight="30dp"
+      />
+
+</RelativeLayout>
