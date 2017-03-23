@@ -29,7 +29,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
+/*主界面*/
 public class MainActivity extends AppCompatActivity {
 
 
