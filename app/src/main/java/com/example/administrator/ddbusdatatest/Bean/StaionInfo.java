@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/3/21 0021.
+ * Created by Administrator on 2017/3/21 0021. 站台信息实体
  */
 public class StaionInfo implements Serializable {
 
